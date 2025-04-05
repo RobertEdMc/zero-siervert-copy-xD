@@ -1,0 +1,16 @@
+class_name ProyectState extends Node
+
+var activos :String
+var trabajos :int
+
+func _ready() -> void:
+    #setear la actividad
+    if trabajos > 0:
+        activos = Si
+    else:
+        activos = No
+    print("Estamos activos:" + activos)
+    pass
+
+Estamos activos: No
+🛌
