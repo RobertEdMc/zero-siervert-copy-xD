@@ -1,0 +1,18 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+# Godot-specific files
+.import/
+export_presets.cfg
+
+# System files
+*.tmp
+*.log
+
+# Editor settings
+editor_settings-*.tres
+
+# Cache files
+*.mono/
+mono/
+
